@@ -41,7 +41,14 @@ export const styles = StyleSheet.create({
         width: '15%'
     },
     optionsBar: {
-        justifyContent: 'space-around'
+        flexDirection:'row',
+        width:'100%',
+        height:60,
+        justifyContent: 'flex-end',
+        alignItems:'center',
+        backgroundColor:'coral',
+        borderRadius: 20,
+
     },
     checkBox: {
         width: '15%',
@@ -53,21 +60,15 @@ export const styles = StyleSheet.create({
         borderColor: 'coral',
         borderWidth: 1.5,
         borderRadius: 20,
+        width:'20%',
         height: '60%',
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor:'coral'
-    },
-    optionsText: {
-        width: '35%',
-        fontSize: 16,
-        height:'70%',
-        paddingLeft: 5,
-        color:'#fff'
-
-    },
-    
+        backgroundColor:'#fff',
+        marginRight:10
+        
+    },    
     todoItem: {
         width: '100%',
         height: 60,
